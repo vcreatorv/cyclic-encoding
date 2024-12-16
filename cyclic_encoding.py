@@ -45,7 +45,7 @@ def generate_error_vectors(n, error_weight):
 
 
 def calculate_detection(codeword, generator_polynomial, n):
-    """ Вычисление обнаруживающей и корректирующей способности кода. """
+    """ Вычисление обнаруживающей способности кода. """
     table = []
 
     for error_weight in range(1, n + 1):
